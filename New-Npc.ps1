@@ -95,8 +95,9 @@ $Global:ClassDc = 'Trained'
 $Global:AncestryFeats = @()
 $Global:ClassFeats = @()
 $Global:GeneralFeats = @()
-$Global:SkillFeats = @()
 $Global:GeneralFeatList = @{}
+[int]$Global:SkillFeatsAmount = 0
+$Global:SkillFeatsChosen = @{}
 
 # Import data
 $GeneralFeatListPsCustom = Get-Content .\Functions\Data\GeneralFeats.json | ConvertFrom-Json

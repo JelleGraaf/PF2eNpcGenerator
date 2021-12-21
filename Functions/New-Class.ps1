@@ -84,13 +84,7 @@ function New-Class {
     
     }
 
-    # Import all skill feats
-    # TO DO
-    $SkillFeatsPsCustom = Get-Content '.\Functions\Data\Skill Feats\Acrobatics.json' | ConvertFrom-Json
-    #$SkillFeats = @{}
-    #$SkillFeatsPsCustom.psobject.properties | ForEach-Object { $SkillFeats[$_.Name] = $_.Value }
 
-    
     # Apply all class powers and features
     foreach ($Lvl in ($ClassPowers.GetEnumerator() | Sort-Object -Property name).name) {
         if ($ClassPowers.$Lvl.'Level' -gt $Global:Level) {break} # Exit loop when character level is exceeded
@@ -111,6 +105,6 @@ function New-Class {
         if ($ClassPowers.$Lvl.AncestryFeat) { $Global:AncestryFeats += $ClassPowers.$Lvl.AncestryFeat }
         if ($ClassPowers.$Lvl.ClassFeat) { $Global:ClassFeats += $ClassPowers.$Lvl.ClassFeats | Get-Random}
         if ($ClassPowers.$Lvl.GeneralFeat -eq 'OneMore') { $Global:GeneralFeats += $Global:GeneralFeatList.$Lvl | Get-Random }
-        if ($ClassPowers.$Lvl.SkillFeat) { $Global:SkillFeats += $ClassPowers.$Lvl.SkillFeat }
+        if ($ClassPowers.$Lvl.SkillFeat) { $Global:SkillFeatsAmount ++ }
     }
 }
