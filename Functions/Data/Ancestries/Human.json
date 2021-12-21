@@ -1,0 +1,21 @@
+{
+    "HP": 8,
+    "Size": "Medium",
+    "Speed": 25,
+    "Abilityboosts": [
+        "Free",
+        "free"
+    ],
+    "Abilityflaw": null,
+    "Languages": "Common,",
+    "SpecialAbilities": null,
+    "AncestryFeats": [
+        "Adapted Cantrip",
+        "Cooperative Nature",
+        "General Training",
+        "Haughty Obstinacy",
+        "Natural Ambition",
+        "Natural Skill",
+        "Unconventional Weaponry"
+    ]
+}

@@ -1,0 +1,274 @@
+{
+    "Acolyte": {
+        "Ability boost option 1": "INT",
+        "Ability boost option 2": "WIS",
+        "Lore": "Scribing",
+        "Flavor": "You spent your early days in a religious monastery or cloister. You may have traveled out into the world to spread the message of your religion or because you cast away the teachings of your faith}",
+        "Skill training": "Religion",
+        "Skill feat": "Student of the Canon"
+    },
+    "Miner": {
+        "Ability boost option 1": "INT",
+        "Ability boost option 2": "CHA",
+        "Lore": "Genealogy or Heralding",
+        "Flavor": "To the common folk}",
+        "Skill training": "Society",
+        "Skill feat": "Courtly Graces"
+    },
+    "Street Urchin": {
+        "Ability boost option 1": "DEX",
+        "Ability boost option 2": "CON",
+        "Lore": "One City",
+        "Flavor": "You eked out a living by picking pockets on the streets of a major city}",
+        "Skill training": "Thievery",
+        "Skill feat": "Pickpocket"
+    },
+    "Nomad": {
+        "Ability boost option 1": "CON",
+        "Ability boost option 2": "WIS",
+        "Lore": "One Terrain",
+        "Flavor": "Traveling far and wide}",
+        "Skill training": "Survival",
+        "Skill feat": "Assurance (Survival)"
+    },
+    "Fortune Teller": {
+        "Ability boost option 1": "INT",
+        "Ability boost option 2": "CHA",
+        "Lore": "Fortune-Telling",
+        "Flavor": "The strands of fate are clear to you}",
+        "Skill training": "Occultism",
+        "Skill feat": "Oddity Identification"
+    },
+    "Entertainer": {
+        "Ability boost option 1": "DEX",
+        "Ability boost option 2": "CHA",
+        "Lore": "Theater",
+        "Flavor": "Through an education in the arts or sheer dogged practice}",
+        "Skill training": "Performance",
+        "Skill feat": "Fascinating Performance"
+    },
+    "Warrior": {
+        "Ability boost option 1": "STR",
+        "Ability boost option 2": "CON",
+        "Lore": "Warfare",
+        "Flavor": "In your younger days}",
+        "Skill training": "Intimidation",
+        "Skill feat": "Intimidating Glare"
+    },
+    "Animal Whisperer": {
+        "Ability boost option 1": "WIS",
+        "Ability boost option 2": "CHA",
+        "Lore": "One Terrain",
+        "Flavor": "You have always felt a connection to animals}",
+        "Skill training": "Nature",
+        "Skill feat": "Train Animal"
+    },
+    "Guard": {
+        "Ability boost option 1": "STR",
+        "Ability boost option 2": "CHA",
+        "Lore": "Legal",
+        "Flavor": "You served in the guard}",
+        "Skill training": "Intimidation",
+        "Skill feat": "Quick Coercion"
+    },
+    "Scout": {
+        "Ability boost option 1": "DEX",
+        "Ability boost option 2": "WIS",
+        "Lore": "One Terrain",
+        "Flavor": "You called the wilderness home as you found trails and guided travelers. Your wanderlust could have called you to the adventuring life}",
+        "Skill training": "Survival",
+        "Skill feat": "Forager"
+    },
+    "Barrister": {
+        "Ability boost option 1": "INT",
+        "Ability boost option 2": "CHA",
+        "Lore": "Legal",
+        "Flavor": "Piles of legal manuals}",
+        "Skill training": "Diplomacy",
+        "Skill feat": "Group Impression"
+    },
+    "Laborer": {
+        "Ability boost option 1": "STR",
+        "Ability boost option 2": "CON",
+        "Lore": "Labor",
+        "Flavor": "You've spent years performing arduous physical labor. It was a difficult life}",
+        "Skill training": "Athletics",
+        "Skill feat": "Hefty Hauler"
+    },
+    "Farmhand": {
+        "Ability boost option 1": "CON",
+        "Ability boost option 2": "WIS",
+        "Lore": "Farming",
+        "Flavor": "With a strong back and an understanding of seasonal cycles}",
+        "Skill training": "Athletics",
+        "Skill feat": "Assurance (Athletics)"
+    },
+    "Acrobat": {
+        "Ability boost option 1": "STR",
+        "Ability boost option 2": "DEX",
+        "Lore": "Circus",
+        "Flavor": "In a circus or on the streets}",
+        "Skill training": "Acrobatics",
+        "Skill feat": "Steady Balance"
+    },
+    "Sailor": {
+        "Ability boost option 1": "STR",
+        "Ability boost option 2": "DEX",
+        "Lore": "Sailing",
+        "Flavor": "You heard the call of the sea from a young age. Perhaps you signed onto a merchant's vessel}",
+        "Skill training": "Athletics",
+        "Skill feat": "Underwater Marauder"
+    },
+    "Scholar": {
+        "Ability boost option 1": "INT",
+        "Ability boost option 2": "WIS",
+        "Lore": "Academia",
+        "Flavor": "You have a knack for learning, and sequestered yourself from the outside world to learn all you could. You read about so many wondrous places and things in your books, and always dreamed about one day seeing the real things. Eventually, that curiosity led you to leave your studies and become an adventurer.",
+        "Skill training": "Arcana",
+        "Skill feat": "Assurance (Arcana)"
+    },
+    "Tinker": {
+        "Ability boost option 1": "DEX",
+        "Ability boost option 2": "INT",
+        "Lore": "Engineering",
+        "Flavor": "Creating all sorts of minor inventions scratches your itch for problem-solving. Your engineering skills take a particularly creative bent}",
+        "Skill training": "Crafting",
+        "Skill feat": "Specialty Crafting"
+    },
+    "Artist": {
+        "Ability boost option 1": "DEX",
+        "Ability boost option 2": "CHA",
+        "Lore": "Art",
+        "Flavor": "Your art is your greatest passion}",
+        "Skill training": "Crafting",
+        "Skill feat": "Specialty Crafting"
+    },
+    "Hermit": {
+        "Ability boost option 1": "CON",
+        "Ability boost option 2": "INT",
+        "Lore": "One Terrain",
+        "Flavor": "In an isolated place—like a cave}",
+        "Skill training": "Nature",
+        "Skill feat": "Dubious Knowledge"
+    },
+    "Criminal": {
+        "Ability boost option 1": "DEX",
+        "Ability boost option 2": "INT",
+        "Lore": "Underworld",
+        "Flavor": "As an unscrupulous independent or as a member of an underworld organization}",
+        "Skill training": "Stealth",
+        "Skill feat": "Experienced Smuggler"
+    },
+    "Charlatan": {
+        "Ability boost option 1": "INT",
+        "Ability boost option 2": "CHA",
+        "Lore": "Underworld",
+        "Flavor": "You traveled from place to place}",
+        "Skill training": "Deception",
+        "Skill feat": "Charming Liar"
+    },
+    "Herbalist": {
+        "Ability boost option 1": "CON",
+        "Ability boost option 2": "WIS",
+        "Lore": "Herbalism",
+        "Flavor": "As a formally trained apothecary or a rural practitioner of folk medicine}",
+        "Skill training": "Nature",
+        "Skill feat": "Natural Medicine"
+    },
+    "Hunter": {
+        "Ability boost option 1": "DEX",
+        "Ability boost option 2": "WIS",
+        "Lore": "Tanning",
+        "Flavor": "You stalked and took down animals and other creatures of the wild. Skinning animals}",
+        "Skill training": "Survival",
+        "Skill feat": "Survey Wildlife"
+    },
+    "Detective": {
+        "Ability boost option 1": "INT",
+        "Ability boost option 2": "WIS",
+        "Lore": "Underworld",
+        "Flavor": "You solved crimes as a police inspector or took jobs for wealthy clients as a private investigator. You might have become an adventurer as part of your next big mystery}",
+        "Skill training": "Society",
+        "Skill feat": "Streetwise"
+    },
+    "Emisary": {
+        "Ability boost option 1": "INT",
+        "Ability boost option 2": "CHA",
+        "Lore": "One City",
+        "Flavor": "As a diplomat or messenger}",
+        "Skill training": "Society",
+        "Skill feat": "Multilingual"
+    },
+    "Bounty Hunter": {
+        "Ability boost option 1": "STR",
+        "Ability boost option 2": "WIS",
+        "Lore": "Legal",
+        "Flavor": "Bringing in lawbreakers lined your pockets. Maybe you had an altruistic motive and sought to bring in criminals to make the streets safer}",
+        "Skill training": "Survival",
+        "Skill feat": "Experienced Tracker"
+    },
+    "Field Medic": {
+        "Ability boost option 1": "CON",
+        "Ability boost option 2": "WIS",
+        "Lore": "Warfare",
+        "Flavor": "In the chaotic rush of battle}",
+        "Skill training": "Medicine",
+        "Skill feat": "Battle Medicine"
+    },
+    "Gambler": {
+        "Ability boost option 1": "DEX",
+        "Ability boost option 2": "CHA",
+        "Lore": "Games",
+        "Flavor": "The thrill of the win drew you into games of chance. This might have been a lucrative sideline that paled in comparison to the real risks of adventuring}",
+        "Skill training": "Deception",
+        "Skill feat": "Lie to Me"
+    },
+    "Prisoner": {
+        "Ability boost option 1": "STR",
+        "Ability boost option 2": "CON",
+        "Lore": "Underworld",
+        "Flavor": "You might have been imprisoned for crimes (whether you were guilty or not)}",
+        "Skill training": "Stealth",
+        "Skill feat": "Experienced Smuggler"
+    },
+    "Gladiator": {
+        "Ability boost option 1": "STR",
+        "Ability boost option 2": "CHA",
+        "Lore": "Gladiatorial",
+        "Flavor": "The bloody games of the arena taught you the art of combat. Before you attained true fame}",
+        "Skill training": "Performance",
+        "Skill feat": "Impressive Performance"
+    },
+    "Martial Disciple": {
+        "Ability boost option 1": "STR",
+        "Ability boost option 2": "DEX",
+        "Lore": "Warfare",
+        "Flavor": "You dedicated yourself to intense training and rigorous study to become a great warrior. The school you attended might have been a traditionalist monastery}",
+        "Skill training": "Athletics",
+        "Skill feat": "Cat Fall or Quick Jump"
+    },
+    "Artisan": {
+        "Ability boost option 1": "STR",
+        "Ability boost option 2": "INT",
+        "Lore": "Guild",
+        "Flavor": "As an apprentice}",
+        "Skill training": "Crafting",
+        "Skill feat": "Specialty Crafting"
+    },
+    "Merchant": {
+        "Ability boost option 1": "INT",
+        "Ability boost option 2": "CHA",
+        "Lore": "Mercantile",
+        "Flavor": "In a dusty shop}",
+        "Skill training": "Diplomacy",
+        "Skill feat": "Bargain Hunter"
+    },
+    "Barkeep": {
+        "Ability boost option 1": "CON",
+        "Ability boost option 2": "CHA",
+        "Lore": "Alcohol",
+        "Flavor": "You have five specialties: hefting barrels}",
+        "Skill training": "Diplomacy",
+        "Skill feat": "Hobnobber"
+    }
+}

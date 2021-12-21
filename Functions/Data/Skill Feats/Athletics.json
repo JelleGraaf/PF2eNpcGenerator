@@ -1,0 +1,21 @@
+{
+    "Lvl1": [
+        "Combat Climber",
+        "Hefty Hauler",
+        "Quick Jump",
+        "Titan Wrestler",
+        "Underwater Marauder"
+    ],
+    "Lvl2": [
+        "Powerful Leap",
+        "Rapid Mantel"
+    ],
+    "Lvl7": [
+        "Quick Climb",
+        "Quick Swim",
+        "Wall Jump"
+    ],
+    "Lvl15": [
+        "Cloud Jump"
+    ]
+}

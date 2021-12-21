@@ -1,0 +1,21 @@
+{
+    "HP": 8,
+    "Size": "Small",
+    "Speed": 25,
+    "Abilityboosts": [
+        "CON",
+        "CHA",
+        "free"
+    ],
+    "Abilityflaw": "STR",
+    "Languages": "Common, Gnomish, Sylvan",
+    "SpecialAbilities": "Low-Light vision",
+    "AncestryFeats": [
+        "Animal Accomplice",
+        "Burrow Elocutionist",
+        "Fey Fellowship",
+        "First World Magic",
+        "Gnome Obsession",
+        "Illusion Sense"
+    ]
+}

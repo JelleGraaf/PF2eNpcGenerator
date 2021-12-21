@@ -1,0 +1,23 @@
+{
+    "HP": 6,
+    "Size": "Small",
+    "Speed": 25,
+    "Abilityboosts": [
+        "DEX",
+        "CHA",
+        "free"
+    ],
+    "Abilityflaw": "WIS",
+    "Languages": "Common, Goblin",
+    "SpecialAbilities": "Darkvision",
+    "AncestryFeats": [
+        "Burn It!",
+        "City Scavenger",
+        "Goblin Lore",
+        "Goblin Scuttle",
+        "Goblin Song",
+        "Junk Tinker",
+        "Rough Rider",
+        "Very Sneaky"
+    ]
+}

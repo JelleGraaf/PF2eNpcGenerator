@@ -1,0 +1,22 @@
+{
+    "HP": 6,
+    "Size": "Small",
+    "Speed": 25,
+    "Abilityboosts": [
+        "DEX",
+        "WIS",
+        "free"
+    ],
+    "Abilityflaw": "STR",
+    "Languages": "Common, Halfling",
+    "SpecialAbilities": "Keen Eyes",
+    "AncestryFeats": [
+        "Distracting Shadows",
+        "Halfling Lore",
+        "Halfling Luck",
+        "Sure Feet",
+        "Titan Slinger",
+        "Unfettered Halfling",
+        "Watchful Halfling"
+    ]
+}

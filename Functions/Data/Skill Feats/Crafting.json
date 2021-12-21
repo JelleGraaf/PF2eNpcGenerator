@@ -1,0 +1,18 @@
+{
+    "Lvl1": [
+        "Alchemical Crafting",
+        "Quick Repair",
+        "Snare Crafting",
+        "Specialty Crafting"
+    ],
+    "Lvl2": [
+        "Magical Crafting"
+    ],
+    "Lvl7": [
+        "Impeccable Crafter",
+        "Inventor"
+    ],
+    "Lvl15": [
+        "Craft Anything"
+    ]
+}

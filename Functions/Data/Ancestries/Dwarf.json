@@ -1,0 +1,23 @@
+{
+    "HP": 10,
+    "Size": "Medium",
+    "Speed": 20,
+    "Abilityboosts": [
+        "CON",
+        "WIS",
+        "free"
+    ],
+    "Abilityflaw": "CHA",
+    "Languages": [
+        "Common",
+        "Dwarven"
+    ],
+    "SpecialAbilities": "Darkvision",
+    "AncestryFeats": [
+        "Dwarven Lore",
+        "Rock Runner",
+        "Stonecunning",
+        "Unburdened Iron",
+        "Vengeful Hatred"
+    ]
+}

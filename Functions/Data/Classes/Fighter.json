@@ -1,0 +1,76 @@
+{
+    "lvl1": {
+        "Level": 1,
+        "HitPoints": "10",
+        "Perception": "Expert",
+        "FortSave": "Expert",
+        "RefSave": "Expert",
+        "WillSave": "Trained",
+        "Skills": "Athletics",
+        "BonusSkills": "3",
+        "SimpleWeaponProf": "Expert",
+        "MartialWeaponProf": "Expert",
+        "AdvancedWeaponProf": "Trained",
+        "UnarmedAttackProf": "Expert",
+        "UnarmoredDefense": "Trained",
+        "LightArmor": "Trained",
+        "MediumArmor": "Trained",
+        "HeavyArmor": "Trained",
+        "ClassDc": "Trained",
+        "GeneralFeat": "Shield block",
+        "SpecialAbility": "Attack of Opportunity",
+        "ClassFeat": "ClassFeat1",
+        "ClassFeats": [
+            "Double Slice",
+            "Exacting Strike",
+            "Point-Blank ",
+            "Power Attack",
+            "Reactive Shield",
+            "Snagging Strike",
+            "Sudden Charge"
+        ]
+    },
+    "lvl2": {
+        "Level": 2,
+        "HitPoints": "10",
+        "ClassFeat": "ClassFeat2",
+        "SkillFeat": "SkillFeat2",
+        "ClassFeats": [
+            "Aggressive Block",
+            "Assisting Shot",
+            "Brutish Shove",
+            "Combat Grab",
+            "Dueling Parry",
+            "Intimidating Strike",
+            "Lunge"
+        ]
+    },
+    "lvl3": {
+        "Level": 3,
+        "HitPoints": "10",
+        "GeneralFeat": "OneMore",
+        "SkillIncrease": "true",
+        "SpecialAbility": "Bravery"
+    },
+    "lvl4": {
+        "Level": 4,
+        "HitPoints": "10",
+        "ClassFeat": "ClassFeat4",
+        "SkillFeat": "SkillFeat4",
+        "ClassFeats": [
+            "Double Shot",
+            "Dual-Handed ",
+            "Knockdown",
+            "Powerful Shove",
+            "Quick Reversal",
+            "Shielded Stride",
+            "Swipe"
+        ]
+    },
+    "lvl5": {
+        "Level": 5,
+        "HitPoints": "10",
+        "SpecialAbility": "Fighter weapon mastery",
+        "SkillIncrease": "true"
+    }
+}

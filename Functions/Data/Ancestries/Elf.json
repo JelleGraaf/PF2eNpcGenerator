@@ -1,0 +1,21 @@
+{
+    "HP": 6,
+    "Size": "Medium",
+    "Speed": 30,
+    "Abilityboosts": [
+        "DEX",
+        "INT",
+        "free"
+    ],
+    "Abilityflaw": "CON",
+    "Languages": "Common, Elven",
+    "SpecialAbilities": "Low-Light vision",
+    "AncestryFeats": [
+        "Ancestral Longevity",
+        "Elven Lore",
+        "Forlorn",
+        "Nimble Elf",
+        "Otherworldly Magic",
+        "Unwavering Mien"
+    ]
+}

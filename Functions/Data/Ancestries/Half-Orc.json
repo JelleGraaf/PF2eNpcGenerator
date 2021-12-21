@@ -1,0 +1,20 @@
+{
+    "HP": 8,
+    "Size": "Medium",
+    "Speed": 25,
+    "Abilityboosts": [
+        "Free",
+        "free"
+    ],
+    "Abilityflaw": null,
+    "Languages": "Common,",
+    "SpecialAbilities": "Low-Light vision",
+    "AncestryFeats": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ]
+}
