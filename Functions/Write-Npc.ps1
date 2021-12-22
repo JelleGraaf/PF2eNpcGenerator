@@ -12,7 +12,7 @@ function Write-NPC {
     Write-Host "Ancestry feats:" -ForegroundColor Yellow; $Global:AncestryFeats
     Write-Host "Class feats:" -ForegroundColor Yellow; $Global:ClassFeats
     Write-Host "General feats:" -ForegroundColor Yellow; $Global:GeneralFeats
-    Write-Host "Skill feats:" -ForegroundColor Yellow; $Global:SkillFeats
+    Write-Host "Skill feats:" -ForegroundColor Yellow; $Global:SkillFeatsChosen
         
     
     #Write-Host "THIS IS IT!" -ForegroundColor Red

@@ -84,10 +84,20 @@ function New-Class {
     
     }
 
-
+    # Import all skill feats
+    $SkillFeatsPsCustom = Get-Content '.\Functions\Data\Skill Feats\Acrobatics.json' | ConvertFrom-Json
+    $SkillFeatsArray = @{}
+    $SkillFeatsPsCustom.psobject.properties | ForEach-Object { $SkillFeatsArray[$_.Name] = $_.Value }
+    # Because of lazy programming instead of structural improvements: build a new hash table of skill feats, this time with numbers as keys, instead of stuff like "Lvl1"
+    $SkillFeatsNew = @{}
+    foreach ($SkillLvl in $SkillFeatsArray.Keys) {
+        $LevelNumber = $SkillLvl.Substring(3)
+        $SkillFeatsNew[$LevelNumber] = $SkillFeatsArray.$SkillLvl
+    }
+    
     # Apply all class powers and features
     foreach ($Lvl in ($ClassPowers.GetEnumerator() | Sort-Object -Property name).name) {
-        if ($ClassPowers.$Lvl.'Level' -gt $Global:Level) {break} # Exit loop when character level is exceeded
+        if ($ClassPowers.$Lvl.'Level' -gt $Global:Level) { break } # Exit loop when character level is exceeded
         if ($ClassPowers.$Lvl.Perception) { $Global:Perception = $ClassPowers.$Lvl.Perception }
         if ($ClassPowers.$Lvl.FortSave) { $Global:FortSave = $ClassPowers.$Lvl.FortSave }
         if ($ClassPowers.$Lvl.RefSave) { $Global:RefSave = $ClassPowers.$Lvl.RefSave }
@@ -103,8 +113,24 @@ function New-Class {
         if ($ClassPowers.$Lvl.ClassDc) { $Global:ClassDc = $ClassPowers.$Lvl.ClassDc }
         if ($ClassPowers.$Lvl.HitPoints) { $Global:Hp += ([int]$ClassPowers.$Lvl.HitPoints) }
         if ($ClassPowers.$Lvl.AncestryFeat) { $Global:AncestryFeats += $ClassPowers.$Lvl.AncestryFeat }
-        if ($ClassPowers.$Lvl.ClassFeat) { $Global:ClassFeats += $ClassPowers.$Lvl.ClassFeats | Get-Random}
+        if ($ClassPowers.$Lvl.ClassFeat) { $Global:ClassFeats += $ClassPowers.$Lvl.ClassFeats | Get-Random }
         if ($ClassPowers.$Lvl.GeneralFeat -eq 'OneMore') { $Global:GeneralFeats += $Global:GeneralFeatList.$Lvl | Get-Random }
-        if ($ClassPowers.$Lvl.SkillFeat) { $Global:SkillFeatsAmount ++ }
+        if ($ClassPowers.$Lvl.SkillFeat) { 
+            # TO DO: Make this impossible to hit duplicate skill feats. Make a list of all possibilities, with higher chance of higher level. Then choose random
+            $SkillFeatToChoose = $null
+            # Iterate through the list of skill feats from highest level to lowest, to make sure the feat taken is of appropriate level
+            foreach ($SkillLvl in ($SkillFeatsNew.GetEnumerator() | Sort-Object -Property name).Name) {
+                Write-Host "Checking skill feat level $SkillLvl" -ForegroundColor Red
+                if ($SkillLvl -le $Global:Level) { 
+                    # Add the skill feat to the NPC
+                    Write-Host "Hitting inside loop" -ForegroundColor Yellow
+                    $SkillFeatToChoose = ($SkillFeatsNew.$SkillLvl | Get-Random)
+                    #$Global:SkillFeatsChosen += ($SkillFeatsNew.$SkillLvl | Get-Random)
+                }
+            }
+            Write-Host "Adding $SkillFeatToChoose" -ForegroundColor Red
+            $Global:SkillFeatsChosen += $SkillFeatToChoose
+            Write-Host "Total skills now: $Global:SkillFeatsChosen" -ForegroundColor Red
+        }
     }
 }
