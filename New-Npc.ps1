@@ -97,7 +97,7 @@ $Global:ClassFeats = @()
 $Global:GeneralFeats = @()
 $Global:GeneralFeatList = @{}
 [int]$Global:SkillFeatsAmount = 0
-$Global:SkillFeatsChosen = @{}
+$Global:SkillFeatsChosen = @()
 
 # Import data
 $GeneralFeatListPsCustom = Get-Content .\Functions\Data\GeneralFeats.json | ConvertFrom-Json

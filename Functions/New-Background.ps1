@@ -47,7 +47,7 @@ function New-Background {
     # Add background perks to different area's
     $Global:Skills."Lore($($Background.Lore))" = @{'Stat' = 'INT' ; 'Proficiency' = 'Trained' }
     Set-Skill -SkillName $Background.'Skill training' -Proficiency 'Trained'
-    $Global:SkillFeats += $Background.'Skill feat'
+    $Global:SkillFeatsChosen += $Background.'Skill feat'
 
     return $Background
 }
