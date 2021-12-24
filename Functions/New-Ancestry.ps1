@@ -1,6 +1,6 @@
 function New-Ancestry {
     # Import ancestry data
-    $AncestryPsCustom = Get-Content .\Functions\Data\Ancestries\$($Global:Ancestry.Name).json | ConvertFrom-Json
+    $AncestryPsCustom = Get-Content .\Data\Ancestries\$($Global:Ancestry.Name).json | ConvertFrom-Json
     $AncestryPsCustom.psobject.properties | ForEach-Object { $GLobal:Ancestry[$_.Name] = $_.Value }
     
     # Adjust hit points

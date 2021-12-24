@@ -1,6 +1,6 @@
 function New-Background {
     # Import all backgrounds from file and place it in a hash table   
-    $BackgroundsPsCustom = Get-Content .\Functions\Data\Backgrounds.json | ConvertFrom-Json
+    $BackgroundsPsCustom = Get-Content .\Data\Backgrounds.json | ConvertFrom-Json
     $Backgrounds = @{}
     $BackgroundsPsCustom.psobject.properties | ForEach-Object { $Backgrounds[$_.Name] = $_.Value }
     

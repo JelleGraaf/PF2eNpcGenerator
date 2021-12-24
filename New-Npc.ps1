@@ -100,8 +100,12 @@ $Global:GeneralFeatList = @{}
 $Global:SkillFeatsChosen = @()
 
 # Import data
-$GeneralFeatListPsCustom = Get-Content .\Functions\Data\GeneralFeats.json | ConvertFrom-Json
+$GeneralFeatListPsCustom = Get-Content .\Data\GeneralFeats.json | ConvertFrom-Json
 $GeneralFeatListPsCustom.psobject.properties | ForEach-Object { $Global:GeneralFeatList[$_.Name] = $_.Value }
+# Import all skill feats
+$SkillFeatsPsCustom = Get-Content '.\Data\Skill Feats\Acrobatics.json' | ConvertFrom-Json
+$Global:SkillFeatsArray = @{}
+$SkillFeatsPsCustom.psobject.properties | ForEach-Object { $Global:SkillFeatsArray[$_.Name] = $_.Value }
 
 
 #########################
@@ -197,7 +201,7 @@ Set-AncestryFeats
 #Clear-Host
 # Calculate final numbers
 $FortSaveNumber = Get-ProficiencyNumber -Proficiency $Global:FortSave -BoundStat 'Con'
-$RefSaveNumber  = Get-ProficiencyNumber -Proficiency $Global:RefSave  -BoundStat 'Dex'
+$RefSaveNumber = Get-ProficiencyNumber -Proficiency $Global:RefSave  -BoundStat 'Dex'
 $WillSaveNumber = Get-ProficiencyNumber -Proficiency $Global:WillSave -BoundStat 'Wis'
 $ClassDcNumber = Get-ProficiencyNumber -Proficiency $Global:ClassDc
 
