@@ -108,8 +108,8 @@ function Get-Subclass {
     if ($Class -eq 'Fighter') {
         While (-not $SubclassNumber) {
             Write-Host "Fighters don't have a subclass. However; do you want them to be strong, or agile?" -ForegroundColor Green
-            Write-Host '(1: Strong)'
-            Write-Host '(2: Agile)'
+            Write-Host '1: Strong'
+            Write-Host '2: Agile'
             $SubclassNumber = Read-Host -Prompt 'Your choice'
 
             switch ($SubclassNumber) {
@@ -122,8 +122,8 @@ function Get-Subclass {
     if ($Class -eq 'Monk') {
         While (-not $SubclassNumber) {
             Write-Host "Monks don't have a subclass. However; do you want them to be strong, or agile?" -ForegroundColor Green
-            Write-Host '(1: Strong)'
-            Write-Host '(2: Agile)'
+            Write-Host '1: Strong'
+            Write-Host '2: Agile'
             $SubclassNumber = Read-Host -Prompt 'Your choice'
 
             switch ($SubclassNumber) {
