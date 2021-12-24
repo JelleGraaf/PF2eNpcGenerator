@@ -13,7 +13,6 @@
     - Anything outside the CRB
     - Archetypes
     - Ancestry heritages
-    - Picking skillfeats
     - creating background story
     - (Magic) Items
     - Half-Elves and Half-Orcs
