@@ -34,9 +34,6 @@ function Set-Skillfeats {
 
     # Pick from all available skill feats
     # TODO: Below code can result in duplicate skill feats. Technical debt: rewrite code to only add new skill feats to the global variable
-    Write-Host "Skill feats before adding: $Global:SkillFeatsChosen"
     $Global:SkillFeatsChosen += $AvailableSkillFeats | Get-Random -Count $Global:SkillFeatsLevels.count
-    Write-Host "Skill feats after adding: $Global:SkillFeatsChosen"
-    Pause
 
 }
