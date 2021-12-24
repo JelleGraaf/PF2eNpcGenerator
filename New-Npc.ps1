@@ -96,8 +96,8 @@ $Global:AncestryFeats = @()
 $Global:ClassFeats = @()
 $Global:GeneralFeats = @()
 $Global:GeneralFeatList = @{}
-[int]$Global:SkillFeatsAmount = 0
 $Global:SkillFeatsChosen = @()
+$Global:SkillFeatsLevels = @()
 
 # Import data
 $GeneralFeatListPsCustom = Get-Content .\Data\GeneralFeats.json | ConvertFrom-Json
@@ -131,7 +131,7 @@ Write-Host
 # Get NPC ancestry
 $Global:Ancestry['Name'] = Get-Ancestry
 Clear-Host
-Write-Host "You chose $Ancestry. Excellent choice!" -ForegroundColor Yellow
+Write-Host "You chose $($Ancestry.Name). Excellent choice!" -ForegroundColor Yellow
 Write-Host
 
 # Get NPC level
@@ -170,6 +170,7 @@ Set-Hitpoints
 Set-SkillList
 
 # Determine skill feats
+Set-SkillFeats -Levels $SkillFeatLevels
 
 
 # Determine ancestry feats

@@ -106,9 +106,6 @@ function New-Class {
         if ($ClassPowers.$Lvl.AncestryFeat) { $Global:AncestryFeats += $ClassPowers.$Lvl.AncestryFeat }
         if ($ClassPowers.$Lvl.ClassFeat) { $Global:ClassFeats += $ClassPowers.$Lvl.ClassFeats | Get-Random }
         if ($ClassPowers.$Lvl.GeneralFeat -eq 'OneMore') { $Global:GeneralFeats += $Global:GeneralFeatList.$Lvl | Get-Random }
-        if ($ClassPowers.$Lvl.SkillFeat) { 
-            $SkillFeatLevels += $Lvl.substring(3)
-        }
+        if ($ClassPowers.$Lvl.SkillFeat) { $Global:SkillFeatsLevels += [int]($Lvl.substring(3)) }
     }
-    Set-SkillFeats -Levels $SkillFeatLevels
 }
