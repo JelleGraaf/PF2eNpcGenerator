@@ -1,19 +1,19 @@
 function Get-Class {
     $Classnumber = $null
     While (-not $Classnumber) {
-        Write-Host 'What class do you want your NPC to be:' -ForegroundColor Green
-        Write-Host '(1:  Alchemist)'
-        Write-Host '(2:  Barbarian)'
-        Write-Host '(3:  Bard)'
-        Write-Host '(4:  Champion)'
-        Write-Host '(5:  Cleric)'
-        Write-Host '(6:  Druid)'
+        Write-Host 'What class do you want your NPC to be (unsupported classes within parentheses):' -ForegroundColor Green
+        Write-Host ' (1:  Alchemist)'
+        Write-Host ' (2:  Barbarian)'
+        Write-Host ' (3:  Bard)'
+        Write-Host ' (4:  Champion)'
+        Write-Host ' (5:  Cleric)'
+        Write-Host ' (6:  Druid)'
         Write-Host '7:  Fighter'
-        Write-Host '(8:  Monk)'
-        Write-Host '(9:  Ranger)'
-        Write-Host '(10: Rogue)'
-        Write-Host '(11: Sorcerer)'
-        Write-Host '(12: Wizard)'
+        Write-Host ' (8:  Monk)'
+        Write-Host ' (9:  Ranger)'
+        Write-Host ' (10: Rogue)'
+        Write-Host ' (11: Sorcerer)'
+        Write-Host ' (12: Wizard)'
         $Classnumber = Read-Host -Prompt 'Your choice'
     }
 
